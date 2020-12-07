@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDepartmentSkillGenderManagementSystem.UI", "EmployeeDepartmentSkillGenderManagementSystem.UI\EmployeeDepartmentSkillGenderManagementSystem.UI.csproj", "{ED745C32-3F45-42C9-BA8D-9AB286210A5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagementSystem.Api", "EmployeeDepartmentSkillGenderManagementSystem.Api\EmployeeManagementSystem.Api.csproj", "{E6BF0A2C-63FB-4862-B13C-CAFC23EC30FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDepartmentSkillGenderManagementSystem.Services", "EmployeeDepartmentSkillGenderManagementSystem.Services\EmployeeDepartmentSkillGenderManagementSystem.Services.csproj", "{31CC8BB7-D38D-4D06-A955-11D33D66B237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDepartmentSkillGenderManagementSystem.Models", "EmployeeDepartmentSkillGenderManagementSystem.Models\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj", "{18B96794-42E6-4AA6-A7A0-5C5F6501C8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementSystem.UserInterfaceApiCall", "EmployeeManagementSystem.UserInterfaceApiCall\EmployeeManagementSystem.UserInterfaceApiCall.csproj", "{27860123-B68B-4D39-8B17-6C4D95D46024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED745C32-3F45-42C9-BA8D-9AB286210A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED745C32-3F45-42C9-BA8D-9AB286210A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED745C32-3F45-42C9-BA8D-9AB286210A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED745C32-3F45-42C9-BA8D-9AB286210A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BF0A2C-63FB-4862-B13C-CAFC23EC30FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BF0A2C-63FB-4862-B13C-CAFC23EC30FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BF0A2C-63FB-4862-B13C-CAFC23EC30FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BF0A2C-63FB-4862-B13C-CAFC23EC30FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CC8BB7-D38D-4D06-A955-11D33D66B237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CC8BB7-D38D-4D06-A955-11D33D66B237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CC8BB7-D38D-4D06-A955-11D33D66B237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CC8BB7-D38D-4D06-A955-11D33D66B237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B96794-42E6-4AA6-A7A0-5C5F6501C8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B96794-42E6-4AA6-A7A0-5C5F6501C8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B96794-42E6-4AA6-A7A0-5C5F6501C8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B96794-42E6-4AA6-A7A0-5C5F6501C8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27860123-B68B-4D39-8B17-6C4D95D46024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27860123-B68B-4D39-8B17-6C4D95D46024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27860123-B68B-4D39-8B17-6C4D95D46024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27860123-B68B-4D39-8B17-6C4D95D46024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17127B5C-DB9D-4BE2-B6E1-78B6A314C8FD}
+	EndGlobalSection
+EndGlobal

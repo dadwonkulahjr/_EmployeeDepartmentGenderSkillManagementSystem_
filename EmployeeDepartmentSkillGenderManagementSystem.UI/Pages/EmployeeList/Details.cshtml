@@ -1,0 +1,45 @@
+﻿@page "{id:int?}"
+@model EmployeeDepartmentSkillGenderManagementSystem.UI.Pages.EmployeeList.DetailsModel
+@{ 
+    ViewData["Title"] = "Employee Details";
+}
+
+<h2 class="display-4 mt-2" style="font-size:7vw">
+    Employee Details<i class="oi oi-info" style="font-size:40px"></i>
+</h2>
+<hr />
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="card-deck">
+            <div class="card mt-2" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="card-header">
+                    <h2 class="display-4 text-center">
+                        @Model.Employee.GetFullName
+                    </h2>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-text">
+                        Email : @Model.Employee.Email
+                    </h5>
+
+                    <h5 class="card-text">
+                       Salary : @Model.Employee.Salary.Value.ToString("C")
+                    </h5>
+
+                    <h5 class="card-text">
+                        Date Hire : @Model.Employee.DateHire.ToLongDateString()
+                    </h5>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-page="Index" class="btn btn-outline-info btn-sm mb-2">Back</a>
+                    <a asp-page="Edit" asp-route-id="@Model.Employee.EmployeeId" class="btn btn-outline-primary btn-sm mb-2">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@Model.Employee.EmployeeId" class="btn btn-outline-danger btn-sm mb-2">Delete</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>

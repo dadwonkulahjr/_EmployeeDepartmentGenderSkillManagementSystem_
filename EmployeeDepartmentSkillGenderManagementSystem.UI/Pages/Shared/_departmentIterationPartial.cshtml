@@ -1,0 +1,11 @@
+﻿@model Department
+<tr>
+    <td>
+        @Model.DepartmentName
+    </td>
+    <td>
+        <a asp-page="Edit" asp-route-id="@Model.DepartmentId" class="btn btn-outline-primary btn-sm mb-2">Edit</a>
+        <a asp-page="Details" asp-route-id="@Model.DepartmentId" class="btn btn-outline-info btn-sm mb-2">Details</a>
+        <a asp-page="Delete" asp-route-id="@Model.DepartmentId" class="btn btn-outline-danger btn-sm mb-2">Delete</a>
+    </td>
+</tr>

@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeManagementSystem.UserInterfaceApiCall\\EmployeeManagementSystem.UserInterfaceApiCall.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj",
+        "projectName": "EmployeeDepartmentSkillGenderManagementSystem.Models",
+        "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj",
+        "packagesPath": "C:\\Users\\Dad S. Wonkulah Jr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dad S. Wonkulah Jr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeManagementSystem.UserInterfaceApiCall\\EmployeeManagementSystem.UserInterfaceApiCall.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeManagementSystem.UserInterfaceApiCall\\EmployeeManagementSystem.UserInterfaceApiCall.csproj",
+        "projectName": "EmployeeManagementSystem.UserInterfaceApiCall",
+        "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeManagementSystem.UserInterfaceApiCall\\EmployeeManagementSystem.UserInterfaceApiCall.csproj",
+        "packagesPath": "C:\\Users\\Dad S. Wonkulah Jr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeManagementSystem.UserInterfaceApiCall\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dad S. Wonkulah Jr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj": {
+                "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeDepartmentSkillGenderManagementSystem.UI\\EmployeeDepartmentSkillGenderManagementSystem.Models\\EmployeeDepartmentSkillGenderManagementSystem.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor.HttpClient": {
+              "target": "Package",
+              "version": "[3.2.0-preview3.20168.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

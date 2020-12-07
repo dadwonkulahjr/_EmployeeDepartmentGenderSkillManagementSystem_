@@ -1,0 +1,38 @@
+﻿@page
+@model EmployeeDepartmentSkillGenderManagementSystem.UI.Pages.DepartmentList.CreateModel
+@{
+    ViewData["Title"] = "Create new record";
+}
+
+<h2 class="display-4" style="font-size:7vw;color:grey">
+    Create<i class="oi oi-file" style="font-size:40px"></i>
+</h2>
+<hr />
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-deck">
+            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="card-header">
+                    <form method="post">
+                        <div class="row form-group">
+                            <label class="col-form-label col-md-2" asp-for="Department.DepartmentName"></label>
+                            <div class="col-sm-10">
+                                <input asp-for="Department.DepartmentName" class="form-control" placeholder="Department Name..." />
+                                <span asp-validation-for="Department.DepartmentName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-10">
+                                <button class="btn btn-outline-primary" type="submit">Create</button>
+                                <a asp-page="/DepartmentList/Index" class="btn btn-outline-secondary">Back</a>
+                            </div>
+                        </div>
+                        @section Scripts{
+                            <partial name="_ValidationScriptsPartial" />
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

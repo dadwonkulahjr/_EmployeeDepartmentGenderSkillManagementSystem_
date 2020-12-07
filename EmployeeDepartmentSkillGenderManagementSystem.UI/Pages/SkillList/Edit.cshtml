@@ -1,0 +1,38 @@
+﻿@page "{id:int?}"
+@model EmployeeDepartmentSkillGenderManagementSystem.UI.Pages.SkillList.EditModel
+@{
+    ViewData["Title"] = "Edit Skill";
+}
+<h2 class="display-4 mt-2" style="font-size:7vw">
+    Edit Skill<i class="oi oi-pencil" style="font-size:40px"></i>
+</h2>
+<hr />
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-deck">
+            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="card-header">
+                    <form method="post">
+                        <input hidden="hidden" asp-for="Skill.SkillId" />
+                        <div class="row form-group">
+                            <label class="col-form-label col-md-2" asp-for="Skill.SkillName"></label>
+                            <div class="col-sm-10">
+                                <input asp-for="Skill.SkillName" class="form-control" placeholder="Skill Name..." />
+                                <span asp-validation-for="Skill.SkillName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-10">
+                                <button class="btn btn-outline-primary" type="submit">Update</button>
+                                <a asp-page="/SkillList/Index" class="btn btn-outline-secondary">Back</a>
+                            </div>
+                        </div>
+                        @section Scripts{
+                            <partial name="_ValidationScriptsPartial" />
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
